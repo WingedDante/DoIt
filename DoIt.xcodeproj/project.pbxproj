@@ -13,6 +13,7 @@
 		151B1F541ECC2B3500BFCD05 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 151B1F521ECC2B3500BFCD05 /* DoIt.xcdatamodeld */; };
 		151B1F561ECC2B3500BFCD05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 151B1F551ECC2B3500BFCD05 /* Assets.xcassets */; };
 		151B1F591ECC2B3500BFCD05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151B1F571ECC2B3500BFCD05 /* LaunchScreen.storyboard */; };
+		151B1F611ECD257D00BFCD05 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151B1F601ECD257D00BFCD05 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		151B1F551ECC2B3500BFCD05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		151B1F581ECC2B3500BFCD05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		151B1F5A1ECC2B3500BFCD05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		151B1F601ECD257D00BFCD05 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				151B1F4B1ECC2B3500BFCD05 /* AppDelegate.swift */,
 				151B1F4D1ECC2B3500BFCD05 /* ViewController.swift */,
 				151B1F4F1ECC2B3500BFCD05 /* Main.storyboard */,
+				151B1F601ECD257D00BFCD05 /* Task.swift */,
 				151B1F551ECC2B3500BFCD05 /* Assets.xcassets */,
 				151B1F571ECC2B3500BFCD05 /* LaunchScreen.storyboard */,
 				151B1F5A1ECC2B3500BFCD05 /* Info.plist */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				151B1F611ECD257D00BFCD05 /* Task.swift in Sources */,
 				151B1F541ECC2B3500BFCD05 /* DoIt.xcdatamodeld in Sources */,
 				151B1F4E1ECC2B3500BFCD05 /* ViewController.swift in Sources */,
 				151B1F4C1ECC2B3500BFCD05 /* AppDelegate.swift in Sources */,
