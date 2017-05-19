@@ -12,6 +12,9 @@ class CreateTaskViewController: UIViewController {
 
     @IBOutlet weak var TaskName: UITextField!
     @IBOutlet weak var Important: UISwitch!
+    
+    var prevVC = TasksViewController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,6 +27,12 @@ class CreateTaskViewController: UIViewController {
     }
     
     @IBAction func AddTaskTapped(_ sender: Any) {
+        
+        let task = Task()
+        task.name = TaskName.text!
+        task.important = Important.isOn
+        prevVC.tasks.append(task)
+        prevVC.tableView.reloadData()
         
     }
 
